@@ -1,0 +1,7 @@
+
+python-can
+cantools
+pandas
+matplotlib
+fastapi
+uvicorn

@@ -1,0 +1,14 @@
+
+VERSION ""
+
+NS_ :
+
+BS_:
+
+BU_: VehicleController
+
+BO_ 256 VehicleStatus: 8 VehicleController
+ SG_ VehicleSpeed : 0|16@1+ (0.01,0) [0|250] "km/h" VehicleController
+ SG_ MotorRPM : 16|16@1+ (1,0) [0|20000] "rpm" VehicleController
+ SG_ BatteryVoltage : 32|16@1+ (0.1,0) [0|1000] "V" VehicleController
+ SG_ BatteryTemperature : 48|8@1+ (1,-40) [-40|215] "degC" VehicleController

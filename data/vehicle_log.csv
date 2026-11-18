@@ -1,0 +1,6 @@
+Timestamp,VehicleSpeed,MotorRPM,BatteryVoltage,BatteryTemperature,Anomaly
+2026-11-18T18:50:01,0.0,0,420.0,35,Normal
+2026-11-18T18:50:01,20.0,1500,418.0,40,Normal
+2026-11-18T18:50:01,45.0,3000,415.0,45,Normal
+2026-11-18T18:50:01,60.0,4500,370.0,96,High Battery Temperature; Sudden Voltage Drop
+2026-11-18T18:50:01,30.0,2000,368.0,98,High Battery Temperature
